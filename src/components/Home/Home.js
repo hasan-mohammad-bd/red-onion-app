@@ -1,10 +1,11 @@
 import React from 'react';
+import Search from '../Search/Search';
 import "./Home.css"
 
 const Home = () => {
     return (
         <div>
-            <h2>This is Home section</h2>
+            <Search></Search>
         </div>
     );
 };
