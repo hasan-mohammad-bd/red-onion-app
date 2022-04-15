@@ -1,0 +1,14 @@
+nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+    color: black;
+}
+
+img{
+    width: 100%;
+}
+
+.img-holder {
+    width: 13rem;
+}
