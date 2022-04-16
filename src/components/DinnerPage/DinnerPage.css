@@ -1,0 +1,12 @@
+.meal-allocation{
+    animation: ltr 1s;
+}
+
+@keyframes ltr {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

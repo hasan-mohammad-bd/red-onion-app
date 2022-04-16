@@ -1,12 +1,15 @@
-import React from 'react';
-import "./Dinner.css"
+import React from "react";
+import "./Dinner.css";
 
-const Dinner = () => {
-    return (
-        <div>
-            <h2>this is dinner section</h2>
-        </div>
-    );
+const Dinner = ({ singleMeal }) => {
+  return (
+    <div className="card1">
+      <img className="img-fluid" src={singleMeal.img} alt="" />
+      <h5>{singleMeal.name}</h5>
+      <p>{singleMeal.des}</p>
+      <h4>$ {singleMeal.price}</h4>
+    </div>
+  );
 };
 
 export default Dinner;

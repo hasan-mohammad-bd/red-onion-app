@@ -3,7 +3,7 @@ import Breakfast from '../Breakfast';
 import "./BreakfastPage.css"
 
 const BreakfastPage = () => {
-    const [breakfast, setBreakfast] = useState();
+    const [breakfast, setBreakfast] = useState([]);
 
 
 
@@ -18,7 +18,7 @@ const BreakfastPage = () => {
     return (
         <div className='meal-allocation container'>
                   {
-            breakfast?.map(singleMeal => <Breakfast singleMeal={singleMeal} key={singleMeal.id}></Breakfast>)
+            breakfast.map(singleMeal => <Breakfast singleMeal={singleMeal} key={singleMeal.id}></Breakfast>)
 
         }
         </div>
