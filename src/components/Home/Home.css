@@ -11,3 +11,28 @@
     transition: color 0.3s ease-in;
 
 }
+
+.active-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(192, 13, 58);
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px 0px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 3px solid rgb(192, 13, 58);;
+
+}
+
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(71, 67, 69);
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px 0px;
+    border-radius: 10px 10px 0 0;
+}

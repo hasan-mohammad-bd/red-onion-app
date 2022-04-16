@@ -21,10 +21,10 @@ const Home = () => {
     <div>
       <Search></Search>
 
-      <div className="meal-section-nav py-3">
-        <NavLink to="/breakfast">Breakfast</NavLink>
-        <NavLink to="/">Lunch</NavLink>
-        <NavLink to="/dinner">Dinner</NavLink>
+      <div className="meal-section-nav py-4">
+        <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/breakfast">Breakfast</NavLink>
+        <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/">Lunch</NavLink>
+        <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/dinner">Dinner</NavLink>
       </div>
       <Outlet></Outlet>
     </div>

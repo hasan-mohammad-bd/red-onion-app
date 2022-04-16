@@ -1,0 +1,13 @@
+.card1 {
+    padding: 50px;
+}
+
+.card1:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card1 h5{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+

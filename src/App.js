@@ -8,6 +8,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import Lunch from "./components/Lunch/Lunch";
+import LunchPage from "./components/LunchPage/LunchPage";
 import Order from "./components/Order/Order";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
 import Products from "./components/Products/Products";
@@ -20,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}>
           <Route path="breakfast" element={<BreakfastPage></BreakfastPage>}></Route>
-          <Route path="" element={<Lunch></Lunch>}></Route>
+          <Route path="" element={<LunchPage></LunchPage>}></Route>
           <Route path="dinner" element={<Dinner></Dinner>}></Route>
         </Route>
         <Route path="/home" element={<Home></Home>}></Route>
