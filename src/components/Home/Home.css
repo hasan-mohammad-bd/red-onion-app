@@ -1,0 +1,13 @@
+.meal-section-nav{
+    text-align: center;
+
+}
+
+.meal-section-nav a{
+    text-decoration: none;
+    margin: 25px;
+    font-size: 18px;
+    color: black;
+    transition: color 0.3s ease-in;
+
+}
